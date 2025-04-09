@@ -3,7 +3,7 @@ import './App.css';
 import reportWebVitals from './reportWebVitals';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import ItsTime from './components/ItsTime';
+import ItsTime from './components/ItsTime/ItsTime';
 import GetBetter from './components/GetBetter';
 import  Stories  from './components/Stories';
 import  WhatUsersSay  from './components/WhatUsersSay';
