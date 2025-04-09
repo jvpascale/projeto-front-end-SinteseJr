@@ -7,7 +7,7 @@ export default function ItsTime() {
     <section className="its-time-section">
       <div className="its-time-container">
         <div className="content-wrapper">
-          <h1>It's time to take a break</h1>
+          <h1 className="gradiente-texto">It's time to take a break</h1>
           <p>Build your meditation skills with an app that gives you all you need!</p>
           
           <div className="input-group">
