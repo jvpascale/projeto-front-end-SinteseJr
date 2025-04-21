@@ -48,6 +48,8 @@
 }
 
 .getbetter-image {
-    width: 80rem;
+    width: 100%;
+    max-width: 80rem;
     height: auto;
+    object-fit: cover;
 }
