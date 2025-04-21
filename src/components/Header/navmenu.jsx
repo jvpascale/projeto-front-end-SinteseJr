@@ -1,13 +1,10 @@
 import React from 'react';
+import Hamburguer from '../../assets/Buttons_Group.jpg';
 
 const NavMenu = () => {
   return (
     <nav className="navmenu">
-        <div className="navmenu_icon">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+    <img src={Hamburguer} alt="Menu" className="navmenu_icon" />
 
         <ul className="navmenu_list">
           <li className="navmenu_item">Explore</li>
