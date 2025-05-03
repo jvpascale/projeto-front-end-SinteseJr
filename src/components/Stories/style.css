@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.stories_section {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+}
+
+.stories_text {
+    max-width: 56.25rem;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.stories_text h1 {
+    font-family: Roboto;
+    font-weight: 800;
+    font-size: 3.5rem;
+    color:#C026D3;
+    margin: 0;
+}
+
+.stories_text p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color:#475569;
+    margin: 1.5rem 0 0 0;
+    line-height: 180%;
+}
+
+.stories_posts {
+    max-width: 80;
+    height: 18.75rem;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.stories_wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_button.left {
+    position: absolute;
+    background-color: white;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -4.5rem;
+}
+
+.nav_button.right {
+    position: absolute;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -4.5rem;
+}
+
+.nav_button img {
+    width: 0.5rem;
+    height: 0.85rem;
+    object-fit: contain;
+}
