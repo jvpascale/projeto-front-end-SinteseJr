@@ -1,5 +1,6 @@
 import './style.css';
 import GetBetterImg from '../../assets/GetBetter_image.png'
+import GetBetterImgMobile from '../../assets/GetBetter_image_mobile.png';
 
 export default function GetBetter () {
     return (
@@ -11,7 +12,10 @@ export default function GetBetter () {
         </div>
 
         <div className="getbetter_image">
-          <img src={GetBetterImg} alt="Illustration representing screens" className="getbetter-image"/>
+          <picture>
+            <source media="(max-width: 768px)" srcSet={GetBetterImgMobile} />
+          <img src={GetBetterImg} alt="Illustration representing screens" className="getbetter-image" />
+        </picture>
         </div>
       </section>
     );
